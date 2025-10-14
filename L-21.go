@@ -2,10 +2,12 @@ package main
 
 import "fmt"
 
-// func add(a,b int){
-// 	fmt.Println(a+b)
 
-// }
+// standard or named func
+func add(a,b int){
+	fmt.Println(a+b)
+
+}
 
 func main(){
 //anonymous func
