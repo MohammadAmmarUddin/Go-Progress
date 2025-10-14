@@ -2,17 +2,25 @@ package main
 
 import "fmt"
 
+// func add(a,b int){
+// 	fmt.Println(a+b)
 
-func add(a,b int){
-	fmt.Println(a+b)
-
-}
+// }
 
 func main(){
-add(3,3)
+//anonymous func
+//IIFE= IMMEDIATELY INVOKED FUNCTION EXPRESSION
+
+func(a int,b int){
+	c:=a+b
+	fmt.Println(c)
+}(5,7)
  
 }
-//init func
+
+
+//func init()
+
 func init(){
-	fmt.Println("I'll be called first")
+	fmt.Println("I am first called func")
 }
