@@ -13,6 +13,6 @@ add(3,3)
  
 }
 //init func
-// func init(){
-// 	fmt.Println("I'll be called first")
-// }
+func init(){
+	fmt.Println("I'll be called first")
+}
