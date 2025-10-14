@@ -1,14 +1,18 @@
 package main
 
-import (
-	"fmt"
-	"mathlib/mathlib"
-)
+import "fmt"
+
+
+func add(a,b int){
+	fmt.Println(a+b)
+
+}
 
 func main(){
- fmt.Println(Add(3,4))
- 
- mathlib.Multi(3,4)
+add(3,3)
  
 }
 
+func init(){
+	fmt.Println("I'll be called first")
+}
